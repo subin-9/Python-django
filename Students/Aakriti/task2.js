@@ -28,7 +28,7 @@ let p3=createProduct("Keyboard",100,20)
 
 inventory=[p1,p2,p3]//all data was overridden by `p3
 
-// Updating Data (Accessing Constraints):
+// Updating Data (Accessing Constraints)
 
 // Oh no! The "Mouse" price was wrong. Access the second item in your inventory array and update its price to 30.
 // Access the "Laptop" (first item) and add a new property category with the value "Electronics".
