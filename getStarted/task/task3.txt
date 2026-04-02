@@ -3,7 +3,7 @@ Create a system that processes student data, calculates grades, filters results,
 What to Build:
 An array of student objects, where each student has: name, marks (array of subject scores), attendance percentage
 Functions that:
-Calculate average marks and assign grades (A/B/C/D based on ranges)
+Calculate average marks and assign grades (A/B/C/D based on ranges) 90% and av A 80-90 B 70-80-C 60-70-D
 Filter students by criteria (e.g., "show only students with > 75 average")
 Find top performer and lowest scorer
 Check eligibility (average > 40 AND attendance > 75%)
@@ -21,3 +21,4 @@ Add a pass/fail rule: If marks < 40, fail regardless of attendance
 Add a merit scholarship checker: Show students eligible for scholarship (average > 80 AND attendance 100)
 Export data to a formatted string report using template literals
 This project forces them to design with objects, organize logic with functions, and process data with loops — all core pillars.
+

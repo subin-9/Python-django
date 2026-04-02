@@ -8,6 +8,8 @@ const value = prompt("enter the value")
 console.log("value:",value)
 function greet(name) {
     return `Hello, ${name}! Welcome to JavaScript functions.`;
+    console.log("hi my")
+    
 }
 const message1 = greet("Saugat");
 const message2 = greet("Aakriti");
