@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>quote and body color</title>
+</head>
+<body>
+    <button class="btn">check it</button>
+    <h1></h1>
+
+
+
+    
+</body>
+<script>
+    const quotes = [
+"Believe in yourself and all that you are.",
+"Small progress is still progress.",
+"Discipline beats motivation.",
+"Success is the sum of daily efforts.",
+"Stay focused and never give up.",
+"Your only limit is your mindset.",
+"Dream big, start small, act now.",
+"Consistency creates confidence."
+];
+
+const colors = [
+"#FF6B6B",
+"#4ECDC4",
+"#45B7D1",
+"#F7B267",
+"#6A4C93",
+"#2EC4B6",
+"#FF9F1C",
+"#1B9AAA"
+];
+const btn=document.querySelector(".btn");
+const h1=document.querySelector("h1")
+let lastindex=0;
+btn.addEventListener("click",()=>{
+    let random = Math.floor(Math.random()*colors.length);
+    console.log(random)
+
+    for (let index = 0; index < colors.length; index--) {
+    if(random === lastindex){
+        random = Math.floor(Math.random()*colors.length);
+    }
+    else{
+        break;
+    }
+}
+    // for (let index = 0; index < quotes.length; index--) {
+    // if(random === lastindex){
+    //     random = Math.floor(Math.random()*quotes.length);
+    // }
+    // else{
+    //     break;
+    // }
+
+document.body.style.backgroundColor = colors[random];
+h1.textContent=quotes[random];
+lastindex=random
+    
+    
+}
+
+)
+
+</script>
+</html>

@@ -16,7 +16,7 @@ console.log(Math.round(4.5))//ans will be 5 because .5 and above round u
 console.log(Math.ceil(4.01)) // ans will be 5 because ceil means round up
 console.log(Math.floor(4.99999999)) // ans will be 4 because floor means round down
 console.log(Math.round(Math.random()*10)) //random number between 0 to 1 but not including 1
-// 0-1
+// 0-10.
 // 0.13453*10=1.3453
 // 0.99999*10=9.9999
 // round  1.5 => 2
